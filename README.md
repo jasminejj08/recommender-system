@@ -33,7 +33,7 @@ RMSE evaluated by hiding known ratings and measuring prediction error across two
 - Item-Item CF achieved the lowest RMSE overall (0.832), outperforming User-User CF by ~10%
 - SVD accuracy improved consistently from k=2 to k=10, with diminishing returns beyond that; suggesting k=10 as the sweet spot for this dataset
 - User-User CF was most sensitive to training size, with RMSE degrading notably at larger `train_n`, likely due to increased sparsity in the user-user similarity matrix
-- Content-Based Filtering does not produce an RMSE as it relies on item metadata rather than rating prediction (evaluated qualitatively via Top-N recommendation relevance)
+- Due to no training data for the content-based algorithm, no RMSE is provided
 
 ---
 
