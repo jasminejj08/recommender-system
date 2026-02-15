@@ -39,7 +39,7 @@ RMSE evaluated by hiding known ratings and measuring prediction error across two
 
 ## Dataset
 
-**GoodReads Books Dataset** — available on [Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)
+**GoodReads Books Dataset** — available on [Kaggle](https://www.kaggle.com/datasets/bahramjannesarr/goodreads-book-datasets-10m/data)
 
 The raw data files are not included in this repository due to size. To reproduce results:
 
