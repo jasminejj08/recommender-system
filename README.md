@@ -66,8 +66,8 @@ Note that you must have utility_matrix.csv file created to run all other scripts
 Run each script individually. All parameters (target user, training size, number of recommendations) can be adjusted in the `main()` function of each file.
 
 ```bash
-python cf_item_item_fixed_git.py    # Item-Item Collaborative Filtering
-python cf_user_user_fixed_git.py    # User-User Collaborative Filtering
+python cf_item_item_git.py    # Item-Item Collaborative Filtering
+python cf_user_user_git.py    # User-User Collaborative Filtering
 python latent_model_svd_git.py      # SVD Latent Factor Model
 python content_based_git.py         # Content-Based Filtering
 ```
